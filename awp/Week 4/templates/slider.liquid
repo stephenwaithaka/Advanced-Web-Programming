@@ -1,0 +1,32 @@
+{% block content %}
+
+
+
+  <div class="row">
+  <div class="small-12 medium-12 columns">
+    <div id="slider" class="range-slider" data-slider data-options="display_selector: #sliderOutput3; start: 1; end: 100">
+      <span class="range-slider-handle" role="slider" tabindex="0"></span>
+	  <span class="range-slider-active-segment"></span>
+	  {{ "gal2.jpg" | asset_url | image_tag }}
+	   
+	 
+    </div>
+  </div>
+  <div class="small-2 medium-1 columns">
+    <span id="sliderOutput3"></span>
+	  
+  </div>
+</div>
+
+
+<div class="row">
+    <div class="large-12 small-3 columns">
+        <div id="featured">
+          
+          
+        </div><!--/featured-->
+       
+    </div><!--/large12-->
+</div><!--/headcontain-->
+  
+{% endblock %}
